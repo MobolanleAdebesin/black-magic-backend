@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Beyonce Knowles",
+    "occupation": "Singer",
+    "bio": "Singer, musician, actress, mother, she does it all",
+    "location": "Houston Texas",
+    "reviews": [
+      {
+        "rating": 5,
+        "text": "She was amazing live",
+        "photo": {
+          "photo1": "https://ichef.bbci.co.uk/news/660/cpsprodpb/1AEE/production/_102849860_420dd9fd-ed9c-4c75-b1fa-67d276834c01.jpg",
+          "photo2": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5YutIdhXYBMAqkhD329TnPML1-jOeQ7zloR52jCIjb1_LR6cj&s"
+        }
+      }
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkLPCf2BzrSm3AXgN2UCThFyaa_BGLjb5XN9nqEXv1RlK2Xk4eaA&s"
+  },
+  {
+    "name": "Jean-Michel Basquiat",
+    "occupation": "Artist",
+    "bio": "An artist of Hatian and Puerto Rican descent who responsible for elevating graffiti to the New York gallery scene.",
+    "location": "New York",
+    "reviews": [
+      {
+        "rating": 4,
+        "text": "Genius",
+        "photo": {
+          "photo1": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2JnTWEFSt9xs2eYa6y0W8in99NThNIH9k_b2tB-NAmzt6EWsD&s"
+        }
+      },
+      {
+        "rating": 2,
+        "text": "Bad attitude",
+        "photo": {
+          "photo1": "https://uploads3.wikiart.org/images/jean-michel-basquiat.jpg!Portrait.jpg"
+        }
+      }
+    ],
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQb9PYkfw41ylyRhFKT1cn8iWJqIHTLuVAc7mcUKGmZDtjrPb-ieg&s"
+  }
+]
