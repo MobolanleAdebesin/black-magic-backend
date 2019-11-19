@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const cors = require("cors");
 const Artist = require("./lib/models/Artist.js");
+const User = require("./lib/models/User.js");
 const parser = require("body-parser");
 const artistRouter = require("./lib/routes/artists.js");
 const userRouter = require("./lib/routes/users.js");
@@ -12,6 +13,12 @@ app.use(parser.json());
 app.get("/", function(req, res) {
   Artist.find({}).then(artists => {
     res.json(artists);
+  });
+});
+
+app.get("/reviews", function(req, res) {
+  User.find({}).then(user => {
+    res.json(user);
   });
 });
 
