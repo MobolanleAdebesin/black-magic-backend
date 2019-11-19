@@ -3,6 +3,7 @@ const app = express();
 const cors = require("cors");
 const Artist = require("./lib/models/Artist.js");
 const User = require("./lib/models/User.js");
+const Review = require("./lib/models/Review.js");
 const parser = require("body-parser");
 const artistRouter = require("./lib/routes/artists.js");
 const userRouter = require("./lib/routes/users.js");
