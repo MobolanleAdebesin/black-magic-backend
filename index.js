@@ -1,9 +1,10 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-
 const Artist = require("./lib/models/Artist.js");
 const parser = require("body-parser");
+const artistRouter = require("./lib/routes/artists.js");
+const userRouter = require("./lib/routes/users.js");
 app.use(cors());
 app.use(parser.urlencoded({ extended: true }));
 app.use(parser.json());
@@ -13,6 +14,9 @@ app.get("/", function(req, res) {
     res.json(artists);
   });
 });
+
+app.use("/artists", artistRouter);
+app.use("/users", userRouter);
 
 app.set("port", process.env.PORT || 4000);
 
