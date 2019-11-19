@@ -16,7 +16,7 @@ app.get("/", function(req, res) {
 });
 
 app.use("/artists", artistRouter);
-app.use("/users", userRouter);
+app.use("/users/", userRouter);
 
 app.set("port", process.env.PORT || 4000);
 
