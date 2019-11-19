@@ -17,7 +17,7 @@ app.get("/", function(req, res) {
 });
 
 app.get("/reviews", function(req, res) {
-  User.find({}).then(user => {
+  Review.find({}).then(user => {
     res.json(user);
   });
 });
