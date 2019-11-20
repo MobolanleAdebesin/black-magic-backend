@@ -3,6 +3,7 @@ const app = express();
 const cors = require("cors");
 const parser = require("body-parser");
 const passport = require("./lib/config/passport")();
+// const passport = require("./lib/config/passport.js")();
 const artistRouter = require("./lib/routes/artists.js");
 const userRouter = require("./lib/routes/users.js");
 const reviewRouter = require("./lib/routes/reviews.js");
