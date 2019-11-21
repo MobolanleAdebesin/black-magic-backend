@@ -1,7 +1,7 @@
 [
   {
     "name": "Beyonce Knowles",
-    "occupation": "Singer",
+    "occupation": "music",
     "bio": "Singer, musician, actress, mother, she does it all",
     "location": "Houston Texas",
     "reviews": [
@@ -18,7 +18,7 @@
   },
   {
     "name": "Jean-Michel Basquiat",
-    "occupation": "Artist",
+    "occupation": "artist",
     "bio": "An artist of Hatian and Puerto Rican descent who responsible for elevating graffiti to the New York gallery scene.",
     "location": "New York",
     "reviews": [
